@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Felix Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/5284e0e0ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">See My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">Fitness tracker</h1>
+      <p class="section__subtitle section__subtitle--intro">
+        OOP, Geolocation, External Libraries
+      </p>
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p>
+        Mapty Fitness Tracker built with object-oriented JavaScript. From this
+        project, I learnt about:
+        <br />
+        - How OOP works, building Classes with OOP and building the
+        user-interface with it.
+        <br />
+        - The fundamentals of OOP and how they work in JavaScript:
+        encapsulation, abstraction, inheritance, and polymorphism
+        <br />
+        - Working with Geolocation API to retrieve user's location information
+        for the web application
+        <br />
+        <br />
+        Learning object-oriented programming was a good experience because it
+        explained the importance of clean and reusable code. At first I
+        struggled with coding with OOP JavaScript because it looked and felt so
+        different than just regular JavaScript. I intend to overcome this by
+        focusing less on the OO programming and focus on the OO design. I'll
+        practice drawing diagrams and models of my application purely in
+        non-code form. This will help solifidy my foundation on OOP and help
+        translate it into better code.
+      </p>
+      <img src="img/portfolio__item-3.png" alt="" />
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <p>Find me on</p>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/felixWongso">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/felixWongso/"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Felix Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/5284e0e0ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">See My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">Portfolio Website</h1>
+      <p class="section__subtitle section__subtitle--intro">
+        HTML, CSS, JavaScript
+      </p>
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p>
+        Yes!! The very same website you are on right now. I built this website
+        portfolio with front end technologies without any frameworks or
+        libraries on purpose.
+        <br />
+        - Focused on proper html semantics and web accesibility
+        <br />
+        - Custom properties for reusability
+        <br />
+        - Responsive design using media queries for both mobile and deskptop (at
+        800px)
+        <br />
+        - Tint of JavaScript including arrow function and DOM manupilation to
+        add the hamburger feature
+      </p>
+      <img src="img/portfolio__item-1.png" alt="" />
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <p>Find me on</p>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/felixWongso">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/felixWongso/"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

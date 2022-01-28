@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Felix Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/5284e0e0ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">See My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">Expense Tracker</h1>
+      <p class="section__subtitle section__subtitle--intro">
+        React, useStates Hook, Component Function
+      </p>
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p>
+        React Expense Tracker that allows you to add and filter user-input with
+        a responsive chart. From this project, I learnt about:
+        <br />
+        - How React works, building components with React & building UIs with
+        React
+        <br />
+        - Components, props & dynamic data binding
+        <br />
+        - Working with user events and state to create interactive applications
+        <br />
+        <br />
+        Learning React is challenging but it is a very rewarding experience. I
+        enjoy it the most when I can debug my own React code. It gives me
+        confidence to continue learning as I grow my skills as developer.
+      </p>
+      <img src="img/portfolio__item-2.png" alt="" />
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <p>Find me on</p>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/felixWongso">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/felixWongso/"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
